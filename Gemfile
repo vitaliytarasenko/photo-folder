@@ -1,7 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
-
+gem "pg",                    "0.9.0", :group => :production
+# gem "postgres",              "0.7.9.2008.01.28", :group => :development
+gem "mysql",                 "2.8.1", :group => [:development, :test]
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
