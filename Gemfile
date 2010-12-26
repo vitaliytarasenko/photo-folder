@@ -31,3 +31,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+
+#rails plugin install git://github.com/Satish/restful-authentication.git restful_authentication
+#rails plugin install git://github.com/rails/dynamic_form.git
