@@ -1,4 +1,8 @@
 PhotoFolder::Application.routes.draw do
+  resource  :home, :only => 'show'
+  match '/', :to => "homes#show", :as => "home"
+  root :to => "homes#show"
+
   resources :users
 
   resource :session, :only => [:new, :create, :destroy]
