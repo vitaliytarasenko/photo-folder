@@ -47,5 +47,5 @@ gem "activeresource", '3.0.3'
 gem "activesupport", '3.0.3'
 
 gem "mail", '2.2.12'
-
+gem "mail", '2.2.13'
 gem "rake", '0.8.7'
