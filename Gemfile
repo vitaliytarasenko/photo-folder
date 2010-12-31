@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+gem "bundler", '1.0.7'
 gem 'rails', '3.0.3'
 gem "pg",                    "0.9.0", :group => :production
 # gem "postgres",              "0.7.9.2008.01.28", :group => :development
@@ -37,7 +37,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 #rails plugin install git://github.com/Satish/restful-authentication.git restful_authentication
 #rails plugin install git://github.com/rails/dynamic_form.git
 
-gem "abstract", '1.0.0'
+#gem "abstract", '1.0.0'
 
 gem "actionmailer", '3.0.3'
 gem "actionpack", '3.0.3'
@@ -47,6 +47,5 @@ gem "activeresource", '3.0.3'
 gem "activesupport", '3.0.3'
 
 #gem "mail", '2.2.12'
-gem "mail", '2.2.13'
+#gem "mail", '2.2.13'
 gem "rake", '0.8.7'
-gem "bundler", '1.0.7'
