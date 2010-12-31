@@ -53,7 +53,7 @@ gem "erubis", '2.6.6'
 
 gem "i18n", '0.5.0'
 gem "json_pure", '1.4.6'
-gem "launchy", '0.3.'
+gem "launchy", '0.3.7'
 gem "linecache", '0.43'
 gem "mail", '2.2.13'
 gem "mime-types", '1.16'
