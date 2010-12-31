@@ -22,5 +22,18 @@ PhotoFolder::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :tls => true,
+    :address => "smtp.gmail.com",
+    :port => 587,
+    :domain => 'jobspeaker.com',
+    :user_name => "jobspeaker.dev@gmail.com",
+    :password => "ej9ree6ghim8vo",
+    :authentication => :plain
+  }
+  config.action_mailer.raise_delivery_errors = true
+
 end
 
