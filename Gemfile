@@ -9,6 +9,7 @@ gem "mysql",                 "2.8.1", :group => [:development, :test]
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -35,3 +36,37 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 #rails plugin install git://github.com/Satish/restful-authentication.git restful_authentication
 #rails plugin install git://github.com/rails/dynamic_form.git
+
+gem "abstract", '1.0.0'
+
+gem "actionmailer", '3.0.3'
+gem "actionpack", '3.0.3'
+gem "activemodel", '3.0.3'
+gem "activerecord", '3.0.3'
+gem "activeresource", '3.0.3'
+gem "activesupport", '3.0.3'
+gem "arel", '2.0.6'
+gem "builder", '2.1.2'
+gem "bundler", '1.0.7'
+gem "configuration", '1.2.0'
+gem "erubis", '2.6.6'
+
+gem "i18n", '0.5.0'
+gem "json_pure", '1.4.6'
+gem "launchy", '0.3.'
+gem "linecache", '0.43'
+gem "mail", '2.2.13'
+gem "mime-types", '1.16'
+gem "polyglot", '0.3.1'
+gem "rack", '1.2.1'
+gem "rack-mount", '0.6.13'
+gem "rack-test", '0.5.6'
+gem "railties", '3.0.3'
+gem "rake", '0.8.7'
+gem "rest-client", '1.6.1'
+gem "sequel", '3.17.0'
+gem "sinatra", '1.0'
+gem "taps", '0.3.14'
+gem "thor", '0.14.6'
+gem "treetop", '1.4.9'
+gem "tzinfo", '0.3.23'
