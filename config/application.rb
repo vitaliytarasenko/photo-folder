@@ -38,5 +38,6 @@ module PhotoFolder
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    config.active_record.observers = :user_observer
   end
 end
