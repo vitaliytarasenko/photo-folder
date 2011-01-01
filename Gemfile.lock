@@ -71,17 +71,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  abstract (= 1.0.0)
-  actionmailer (= 3.0.3)
-  actionpack (= 3.0.3)
-  activemodel (= 3.0.3)
-  activerecord (= 3.0.3)
-  activeresource (= 3.0.3)
-  activesupport (= 3.0.3)
   bundler (= 1.0.7)
-  mail (= 2.2.13)
   mysql (= 2.8.1)
   pg (= 0.9.0)
   rails (= 3.0.3)
-  rake (= 0.8.7)
   sqlite3-ruby

@@ -38,15 +38,15 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 #rails plugin install git://github.com/Satish/restful-authentication.git restful_authentication
 #rails plugin install git://github.com/rails/dynamic_form.git
 
-gem "abstract", '1.0.0'
-
-gem "actionmailer", '3.0.3'
-gem "actionpack", '3.0.3'
-gem "activemodel", '3.0.3'
-gem "activerecord", '3.0.3'
-gem "activeresource", '3.0.3'
-gem "activesupport", '3.0.3'
-
-#gem "mail", '2.2.12'
-gem "mail", '2.2.13'
-gem "rake", '0.8.7'
+#gem "abstract", '1.0.0'
+#
+#gem "actionmailer", '3.0.3'
+#gem "actionpack", '3.0.3'
+#gem "activemodel", '3.0.3'
+#gem "activerecord", '3.0.3'
+#gem "activeresource", '3.0.3'
+#gem "activesupport", '3.0.3'
+#
+##gem "mail", '2.2.12'
+#gem "mail", '2.2.13'
+#gem "rake", '0.8.7'
